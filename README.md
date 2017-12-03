@@ -1,14 +1,13 @@
 # Prettify JSON
 
-Программа pretty print предназанчена для форматирования данных из файла в формтае json для удобного чтения.
-Реализована возможность импорта программы. Для запуска нажмите Enter
-
+Программа pretty print предназанчена для форматирования данных из файла в формате json для удобного чтения.
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
 
 $ python pprint_json.py <path to file>
+
 {'features': [{'geometry': {'coordinates': [37.39703804817934,
                                             55.740999719549094],
                             'type': 'Point'},
