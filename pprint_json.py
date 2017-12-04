@@ -5,12 +5,12 @@ from pprint import pprint
 
 def load_data(filepath):
     with open(filepath) as file_handler:
-        data = json.load(file_handler)
-    return data
+        shops_list = json.load(file_handler)
+    return shops_list
 
 
-def pretty_print_json(data):
-    pprint(data)
+def pretty_print_json(shops_list):
+    pprint(shops_list)
 
 
 if __name__ == '__main__':
